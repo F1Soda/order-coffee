@@ -67,11 +67,20 @@
       </div>
     </form>
 
-
     <div class="modal-overlay" id="modal-overlay" style="display: none;"></div>
     <div class="modal" id="modal" style="display: none;">
       <button class="modal-close" id="modal-close">✖</button>
       <p>Заказ принят!</p>
+      <table id="order-summary" border="1" style="margin-top: 15px; border-collapse: collapse; width: 100%;">
+        <thead>
+        <tr>
+          <th>Напиток</th>
+          <th>Молоко</th>
+          <th>Дополнительно</th>
+        </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
     </div>
     <script src="index.js"></script>
   </body>
